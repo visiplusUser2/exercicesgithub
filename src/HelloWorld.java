@@ -15,7 +15,7 @@ public class HelloWorld implements Constants {
         JFrame frame = new JFrame(HELLO_WORLD_JAVA_SWING);
 
         // set frame site
-        frame.setMinimumSize(new Dimension(800, 600));
+        frame.setMinimumSize(new Dimension(200, 200));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // center the JLabel
