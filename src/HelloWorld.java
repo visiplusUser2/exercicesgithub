@@ -13,7 +13,8 @@ public class HelloWorld implements Constants {
 		JFrame frame = new JFrame(HELLO_WORLD_JAVA_SWING);
 
 		// set frame site
-		frame.setMinimumSize(new Dimension(200, 200));
+		// Fix #1 : Il faudrait changer la taille de la fenetre
+		frame.setMinimumSize(new Dimension(100, 100));
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		// center the JLabel
