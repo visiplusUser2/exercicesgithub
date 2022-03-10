@@ -14,12 +14,12 @@ public class HelloWorld implements Constants {
 
 		// set frame site
 		// Fix #1 : Il faudrait changer la taille de la fenetre
-		frame.setMinimumSize(new Dimension(100, 100));
+		frame.setMinimumSize(new Dimension(150, 180));
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		// center the JLabel
 		JLabel lblText = new JLabel(HELLO_WORLD, SwingConstants.CENTER);
-		Color yellow = new Color(240, 240, 20);
+		Color yellow = new Color(240, 200, 20);
 		lblText.setOpaque(true);
 		lblText.setBackground(yellow);
 
